@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("partials/head.ejs")%>
+
+<body>
+    <h1 class="text-center bg-primary p-5 text-white m-0">The Solar System</h1>
+
+    <%- include("partials/navbar.ejs")%>
+
+    <h2>
+        <%=planet_name%>
+    </h2>
+
+    <%=planetInfo.description%>
+    <br>
+    <img src="<%=planetInfo.image%>" width="300">
+
+    <ul>
+        <li>Distance from the Sun: <%=planetInfo.distanceFromSun%></li>
+        <li>Year length: <%=planetInfo.yearLength%></li>
+        <li>Radius: <%=planetInfo.radius%></li>
+        <li>One Earth Day: <%=planetInfo.oneEarthDay%></li>
+        <li>Moons: <%=planetInfo.moons%></li>
+        <li><a href="<%=planetInfo.websiteLink%>" target="blank">Website Link</a></li>
+    </ul>
+
+    <%- include("partials/footer.ejs")%>
+</body>
+
+</html>

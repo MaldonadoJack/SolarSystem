@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("partials/head.ejs")%>
+
+<body>
+    <h1 class="text-center bg-primary p-5 text-white m-0">The Solar System</h1>
+
+    <%- include("partials/navbar.ejs")%>
+
+    <h2>
+        Asteroids
+    </h2>
+
+    <br>
+    <img src="<%=planetInfo.image%>" width="300">
+
+    <ul>
+        <li>Definition: <%=planetInfo.def%></li>
+        <li><a href="<%=planetInfo.link%>" target="blank">Website Link</a></li>
+    </ul>
+
+    <%- include("partials/footer.ejs")%>
+</body>
+
+</html>

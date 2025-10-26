@@ -1,0 +1,27 @@
+{
+  "name": "solarsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaldonadoJack/SolarSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaldonadoJack/SolarSystem/issues"
+  },
+  "homepage": "https://github.com/MaldonadoJack/SolarSystem#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
+    "node-fetch": "^3.3.2",
+    "npm-solarsystem": "^1.1.5"
+  }
+}
